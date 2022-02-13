@@ -1,0 +1,28 @@
+{
+  "name": "book-server",
+  "version": "1.0.0",
+  "description": "API for l-y",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doston1004/book-server.git"
+  },
+  "author": "dostonbek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doston1004/book-server/issues"
+  },
+  "homepage": "https://github.com/doston1004/book-server#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
